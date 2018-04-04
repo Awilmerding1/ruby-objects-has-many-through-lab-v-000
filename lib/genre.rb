@@ -7,7 +7,7 @@ class Genre
   end
   
   def songs 
-    self.songs = @songs
+    @songs
   end
   
   def artists
