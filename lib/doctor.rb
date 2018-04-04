@@ -16,6 +16,8 @@ class Doctor
     @appointments
   end 
   
-  
+  def patients
+    appointment.doc
+  end
   
 end
