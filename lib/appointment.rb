@@ -5,6 +5,10 @@ class Appointment
     @date = date 
     @doctor = doctor 
   end
+  
+  def patient
+    patient.appointment = self
+  end
     
     
 end
