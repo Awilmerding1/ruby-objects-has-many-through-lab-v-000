@@ -6,7 +6,9 @@ class Song
     @genre = genre 
   end
   
-  
+  def genre 
+    song.genre = @genre 
+  end
   
   
   
