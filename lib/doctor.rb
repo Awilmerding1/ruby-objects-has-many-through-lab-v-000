@@ -17,7 +17,9 @@ class Doctor
   end 
   
   def patients
-    appointment.doc
+    @appointments.map do |appt|
+      appt.patient
+    end
   end
   
 end
