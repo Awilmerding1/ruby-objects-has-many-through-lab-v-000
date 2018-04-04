@@ -16,7 +16,9 @@ class Artist
   end 
   
   def genres 
-    self.genres = 
+    @songs.map do |song|
+      song.genre
+    end
   end
   
   
